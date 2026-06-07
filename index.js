@@ -9,27 +9,17 @@ var one = document.getElementById('1');
 
 function f1(){
     
-    var a = document.getElementById('in7').value;
-    var b = document.getElementById('in8').value;
-      
-  var c = document.getElementById('in9').value;
-     var d = document.getElementById('in10').value;
- var m = document.getElementById('in6').value;
+    var a = document.getElementById('in1').value;
+    var b = document.getElementById('in2').value;
+    var c = document.getElementById('in3').value;
+  
      
     
-    var e = 345.96 * m + 676 * a + 729 * b + 2500 * c + 2641.96 * d;
+    var d = a * b * c;
 
-var f = 18.6 * m + 26 * a + 27 * b + 50 * c + 51.4 * d;
-    
-    var j = e / f ;
 
- 
-            var k = 20 / j;
-            document.getElementById('out2').innerHTML = k.toFixed(2) + " кПа";
+            document.getElementById('out1').innerHTML = d + " Вт";
     
-    var l = 480 / j
-    document.getElementById('out3').innerHTML = l.toFixed(2) + " кПа";
-       
     }
  
   
